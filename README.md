@@ -1,1 +1,1 @@
-# jest-unit-tests
+# js-unit-tests
