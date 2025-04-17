@@ -1,0 +1,23 @@
+{
+  "name": "js-unit-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=report,reportFilename=test-report,quiet=true",
+    "coverage": "c8 --reporter=lcov --reporter=text mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "c8": "^10.1.3",
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3"
+  }
+}
