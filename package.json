@@ -8,9 +8,10 @@
     "test": "test"
   },
   "scripts": {
+    "prepare": "husky install",
     "test": "mocha --reporter mochawesome --reporter-options reportDir=report,reportFilename=test-report,quiet=true",
     "coverage": "c8 --reporter=lcov --reporter=text mocha",
-    "prepare": "husky install"
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -33,5 +34,8 @@
   },
   "lint-staged": {
     "*.js": "eslint --fix"
+  },
+  "husky": {
+    "skipCI": true
   }
 }
