@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { findMax, findMin, removeDuplicates } from "../src/arrayUtils.js";
+import { findMax, findMin, removeDuplicates } from '../src/arrayUtils.js';
 
 describe('findMax', () => {
   it('should return the maximum value in the array', () => {
