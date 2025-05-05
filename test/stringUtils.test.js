@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { capitalize, reverseString, isPalindrome } from "../src/stringUtils.js";
+import { capitalize, reverseString, isPalindrome } from '../src/stringUtils.js';
 
 describe('capitalize', () => {
   it('should capitalize the first letter', () => {

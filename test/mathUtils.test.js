@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { add, subtract, multiply, divide } from "../src/mathUtils.js";
+import { add, subtract, multiply, divide } from '../src/mathUtils.js';
 
 describe('add', () => {
   it('should correctly add two numbers', () => {

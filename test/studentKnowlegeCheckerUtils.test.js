@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { checkStudentKnowledge } from "../src/studentKnowlegeCheckerUtils.js";
+import { checkStudentKnowledge } from '../src/studentKnowlegeCheckerUtils.js';
 
 describe('checkStudentKnowledge', () => {
   it('should return true if all answers are correct', () => {
